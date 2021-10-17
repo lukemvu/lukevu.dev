@@ -60,22 +60,15 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Luke Vu.</h2>;
-  const three = <h3 className="big-heading">I just straight up don't build anything.</h3>;
+  const three = <h3 className="big-heading">I enjoy tinkering with new technologies.</h3>;
   const four = (
     <>
-      <p>
-        I’m a software engineer specializing in building nothing. Currently, I’m focused on building
-        accessible, human-centered nothing at{' '}
-        <a href="https://lukevu.dev/" target="_blank" rel="noreferrer">
-          lukevu.dev
-        </a>
-        .
-      </p>
+      <p>I’m a recently graduated student looking for my first software engineering role.</p>
     </>
   );
   const five = (
     <a className="email-link" href="https://lukevu.dev/" target="_blank" rel="noreferrer">
-      Check out nothing!
+      This is a button.
     </a>
   );
 

@@ -126,7 +126,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Java', 'Python', 'Kotlin', 'C'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,28 +136,26 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Luke and I enjoy creating things that live nowhere. My interest in
-              nothing started back in 2007 when I decided to edit my Neopets store shop.
+              Hello! My name is Luke and I enjoy tinkering with new and interesting technologies. My
+              interests in STEM as came from participation in{' '}
+              <a href="https://www.firstlegoleague.org/">FLL</a> in middle school and later{' '}
+              <a href="https://www.firstinspires.org/robotics/frc">FRC</a> in high school where I
+              now volunteer to mentor <a href="https://hyperonline.org/">my old team</a>
+              {'. '}
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Since then, I've completed my BS in Computer Science from{' '}
+              <a href="hhttps://www.umb.edu/">UMass Boston</a>, and am currently serving in the{' '}
+              <a href="https://www.marines.com/about-the-marine-corps/marine-corps-structure/marine-corps-reserve.html">
+                Marine Corps Reserves
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              as an Aviation Communication Systems Technician.
+            </p>
+
+            <p>
+              In my free time, I enjoy camping the great outdoors, 3d printing useless objects,{' '}
+              <a href="https://www.lukevu.photography/">taking photos</a>, assembling plastic Gundam
+              models, picking things up and putting them down, and occasionally climbing big rocks.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
